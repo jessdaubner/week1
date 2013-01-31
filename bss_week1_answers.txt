@@ -1,3 +1,8 @@
-*** Cut and paste the for loop here ***
+Name: Jessie Daubner
+Date: January 30, 2013
 
-*** What is the for loop doing? ***
+{% for message in messages %}
+	{{message}}
+{% endfor %}
+
+The for loop above loops through the messages and displays each one. 
